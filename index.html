@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador César</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cifrador César</h1>
+        <textarea id="inputText" placeholder="Escribe el texto a cifrar"></textarea>
+        <input type="number" id="shift" placeholder="Desplazamiento" min="1" max="25">
+        <button onclick="encryptText()">Cifrar</button>
+        <textarea id="outputText" placeholder="Texto cifrado" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
